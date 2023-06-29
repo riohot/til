@@ -1,6 +1,6 @@
 # GIT
 
-- Founded by Linus Torvals in 2005.
+- Founded by Linus Torvalds in 2005.
 - Decentralised version control system. i.e everybody has there own version of the code locally so that 
 one party can't delete the whole code base or a server-accident doesnt destroy the whole code base 
 
