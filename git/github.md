@@ -21,9 +21,8 @@ First step - Github > New repository
 
 	git remote add origin <url/repository.git>
 
-	git push -u origin main
+	git push -u origin [main]
 ```
-
 
 1. Add - adds the files to the 'stage' area so they are now fully watched by the git lord
 2. status shows the literal status of files - untracked files, modified files
