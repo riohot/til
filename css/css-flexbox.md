@@ -7,4 +7,4 @@ $ .element {
 }
 ```
 
-[source]
+Note:
