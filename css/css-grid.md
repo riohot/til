@@ -6,7 +6,7 @@
 
 
 ```bash
-$ .element {
+.element {
 	display: grid
 	grid-template: col / row
 }
