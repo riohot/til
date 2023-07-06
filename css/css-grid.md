@@ -61,3 +61,5 @@ _content placing_
 	Grid-column-end: x/y or x / span x
 	Grid-area: (grs/gcs/gre/cre)
 ```
+
+Grid area is to place the container within a set number of grid blocks
