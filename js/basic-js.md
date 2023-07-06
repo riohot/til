@@ -10,9 +10,9 @@ This terminates the statement and makes the code execute regardless of the const
 ```bash
 function add(a, b)
 {
-    for (let i = a; i <= b; i++);
+    for (let i = a; i <= b; i++)//;
     {
-         if (i % 4  == 0)
+         if (i % 4  == 0)//;
         console.log(i);
     }
 
