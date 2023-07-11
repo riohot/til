@@ -12,3 +12,14 @@ cd - change dir. = $ cd ./
 
 rm - delete - $ rm -f file
 rm - delete - $ rm -r/f folder
+
+argc = argument conditions e.g. This would be two arguments
+
+```bash
+    $ ./program 1
+        ^arg1   ^arg2
+        ^i[0]    ^i[1]
+                 ^ string not int
+```
+
+Therefore you can control the amount of argcs allowed in a given program
