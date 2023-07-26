@@ -7,7 +7,10 @@ ls - list
 cp - copy - $ cp file <newname>
 cp - copy - $ cp -r file <newname> // -r recursive
 
+mv - move - $ mv file <newlocation/> (Move file)
 mv - move - $ mv file <newfilename> (change file name)
+mv -v index.html windex.html (-v lists the change)
+
 cd - change dir. = $ cd ./
 
 rm - delete - $ rm -f file
@@ -23,3 +26,10 @@ argc = argument conditions e.g. This would be two arguments
 ```
 
 Therefore you can control the amount of argcs allowed in a given program
+
+To-do
+
+chmod
+cat
+">>"
+"<"
