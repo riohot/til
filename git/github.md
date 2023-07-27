@@ -1,14 +1,14 @@
 # GIT
 
 - Founded by Linus Torvalds in 2005.
-- Decentralised version control system. i.e everybody has there own version of the code locally so that 
-one party can't delete the whole code base or a server-accident doesnt destroy the whole code base 
+- Decentralised version control system. i.e everybody has there own version of the code locally so that
+  one party can't delete the whole code base or a server-accident doesnt destroy the whole code base
 
 First step - Github > New repository
 
 ```bash
 	cd <folder>
-	
+
 	echo "# myproject" >> README.md (not necessary)
 
 	git init
@@ -17,7 +17,7 @@ First step - Github > New repository
 
 	git commit -m "name of commit"
 
-	git branch -M main 
+	git branch -M main
 
 	git remote add origin <url/repository.git>
 
@@ -31,19 +31,15 @@ First step - Github > New repository
 5. The first time you push to a remote repo you MUST define specify the branch explicitly
 6. // Doesnt seem like you need to specify [main] branch in main
 
-
 --
 
-* Moving branches tbd
-* Pull branches tbd
-* Merge branches tbd
+- Moving branches tbd
+- Pull branches tbd
+- Merge branches tbd
 
-
-
-Note: Main is the new terminology for Master. Master I think may have become a politically sensitive term and therefore sundowed. 
+Note: Main is the new terminology for Master. Master I think may have become a politically sensitive term and therefore sundowed.
 
 When trying to push through something with error. The following worked:
-
 
 ```bash
 	git push -u origin main -f
@@ -80,3 +76,8 @@ CLONE!!!
 	$cd <location>
 	git clone url
 ```
+
+The message, “Your branch is ahead of ‘origin/main’ by 1 commit” just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
+
+ORIGIN - the name of your remote connection. Origin is both default and constvention for the remote repo.
+MAIN - local default branch
