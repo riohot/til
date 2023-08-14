@@ -33,3 +33,5 @@ chmod
 cat
 ">>"
 "<"
+
+cat <filename> - print file contents to CLI
